@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperAndEFcore", "DapperAndEFcore\DapperAndEFcore.csproj", "{CE24B235-C94C-4093-941A-546AE444C36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperAndEFcore", "DapperAndEFcore\DapperAndEFcore.csproj", "{CE24B235-C94C-4093-941A-546AE444C36E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_EF_Dapper", "WebAPI_EF_Dapper\WebAPI_EF_Dapper.csproj", "{2A7F9F4B-7ABF-4AE2-8CC7-96C003288782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CE24B235-C94C-4093-941A-546AE444C36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE24B235-C94C-4093-941A-546AE444C36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE24B235-C94C-4093-941A-546AE444C36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7F9F4B-7ABF-4AE2-8CC7-96C003288782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7F9F4B-7ABF-4AE2-8CC7-96C003288782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7F9F4B-7ABF-4AE2-8CC7-96C003288782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7F9F4B-7ABF-4AE2-8CC7-96C003288782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
