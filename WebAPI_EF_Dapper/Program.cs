@@ -11,6 +11,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<ProductService>();
 builder.Services.AddTransient<ClientService>();
+builder.Services.AddTransient<OrderService>();
+builder.Services.AddTransient<ProductOrderService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

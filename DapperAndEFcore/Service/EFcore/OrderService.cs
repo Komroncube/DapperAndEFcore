@@ -39,6 +39,10 @@ namespace DapperAndEFcore.Service.EFcore
                 _db.SaveChanges();
             }
         }
+        public IEnumerable<Order> GetAllOrders()
+        {
+            return _db.Orders.ToList();
+        }
         public Order GetOrderById(int orderId) 
         {
             return _db.Orders.FirstOrDefault(o => o.Id == orderId);
